@@ -1,0 +1,27 @@
+#
+# Fertilizer EcoEnchant
+#
+
+name: "Fertilizer"
+description: By right clicking on the plant, you will bonemealed it, losing durability
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: legendary
+
+general-config:
+  targets:
+    - HOE
+  grindstoneable: true
+  disabled-in-worlds: [ ]
+  conflicts: []
+  maximum-level: 1
+
+config:
+  activation-sound: ITEM_BONE_MEAL_USE
+  blacklist-blocks:
+    - "GRASS_BLOCK"
+

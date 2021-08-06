@@ -1,0 +1,4 @@
+me/nooneboss/blessingofsatanenchantment/BlessingOfSatan.java
+ me.nooneboss.blessingofsatanenchantment.BlessingOfSatan
+me/nooneboss/blessingofsatanenchantment/BlessingOfSatanMain.java
+ me.nooneboss.blessingofsatanenchantment.BlessingOfSatanMain

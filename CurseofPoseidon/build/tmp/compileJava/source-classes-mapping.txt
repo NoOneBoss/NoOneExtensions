@@ -1,0 +1,4 @@
+me/nooneboss/curseofposeydonenchantment/CurseOfPoseydonMain.java
+ me.nooneboss.curseofposeydonenchantment.CurseOfPoseydonMain
+me/nooneboss/curseofposeydonenchantment/CurseOfPoseydon.java
+ me.nooneboss.curseofposeydonenchantment.CurseOfPoseydon

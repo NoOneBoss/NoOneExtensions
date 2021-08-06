@@ -1,0 +1,27 @@
+#
+# CurseOfPoseydon EcoEnchant
+#
+
+name: "Curse Of Poseydon"
+description: You get damage from water
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: legendary
+
+general-config:
+  targets:
+    - chestplate
+    - leggings
+    - boots
+  grindstoneable: true
+  disabled-in-worlds: [ ]
+  conflicts: []
+  maximum-level: 3
+
+config:
+  water-damage-per-level: 0.5
+

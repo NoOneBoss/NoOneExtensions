@@ -1,0 +1,24 @@
+#
+# Blessing Of Satan EcoEnchant
+#
+
+name: "Blessing Of Satan"
+description: Now on you are invulnerable to lava
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: legendary
+
+general-config:
+  targets:
+    - chestplate
+    - leggings
+    - boots
+  grindstoneable: true
+  disabled-in-worlds: [ ]
+  conflicts: []
+  maximum-level: 3
+
