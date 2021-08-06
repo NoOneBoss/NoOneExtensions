@@ -1,0 +1,33 @@
+#
+# SeedBag EcoEnchant
+#
+
+name: "Seed Bag"
+description: When plowing a block there is a chance that a random plant will appear on farmland
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: legendary
+
+general-config:
+  targets:
+    - HOE
+  grindstoneable: true
+  disabled-in-worlds: [ ]
+  conflicts: []
+  maximum-level: 3
+
+config:
+  activation-sound: ITEM_BONE_MEAL_USE
+  chance-per-level: 5
+  plants:
+    - "WHEAT"
+    - "POTATOES"
+    - "CARROTS"
+    - "BEETROOTS"
+    - "MELON_STEM"
+    - "PUMPKIN_STEM"
+

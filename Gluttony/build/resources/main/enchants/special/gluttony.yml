@@ -1,0 +1,43 @@
+#
+# Gluttony EcoEnchant
+#
+
+name: "Gluttony"
+description: Food is automatically eaten from the inventory
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: legendary
+
+general-config:
+  targets:
+    - helmet
+    - chestplate
+    - leggings
+    - boots
+  grindstoneable: true
+  disabled-in-worlds: [ ]
+  conflicts: []
+  maximum-level: 3
+
+config:
+  activation-sound: ENTITY_PLAYER_BURP
+  extra-saturation-per-level: 1
+  food-black-list:
+    - "ROTTEN_FLASH"
+    - "SPIDER_EYE"
+    - "POISONOUS_POTATO"
+    - "PUFFERFISH"
+    - "CHICKEN"
+    - "RABBIT"
+    - "MUTTON"
+    - "BEEF"
+    - "PORKCHOP"
+    - "COD"
+    - "SALMON"
+    - "TROPICAL_FISH"
+
+

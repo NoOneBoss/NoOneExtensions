@@ -1,0 +1,29 @@
+#
+# Guardian Angel EcoEnchant
+#
+
+name: "Guardian Angel"
+description: You get a chance to reincarnate after death
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: veryspecial
+
+general-config:
+  targets:
+    - chestplate
+  grindstoneable: true
+  disabled-in-worlds: [ ]
+  conflicts: []
+  maximum-level: 3
+
+config:
+  totem-animation: true
+  chance-per-level: 3
+  regeneration-power-per-level: 2
+  fire_resistance-time-per-level: 10 #in seconds
+
+

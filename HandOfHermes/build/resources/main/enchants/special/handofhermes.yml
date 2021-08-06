@@ -1,0 +1,43 @@
+#
+# Hand of Hermes EcoEnchant
+#
+
+name: "Hand of Hermes"
+description: You get a chance to instantly kill a entity, and steal its damage and health for a time
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: legendary
+
+general-config:
+  targets:
+    - sword
+    - axe
+  grindstoneable: true
+  disabled-in-worlds: [ ]
+  conflicts: []
+  maximum-level: 3
+
+config:
+  activation-sound: BLOCK_AMETHYST_BLOCK_HIT
+  max-steal-health: 10
+  max-steal-damage: 5
+  blacklisted-mob:
+    - ENDER_DRAGON
+    - WITHER
+    - ELDER_GUARDIAN
+    - IRON_GOLEM
+  effect-time: 10 #in seconds
+  type: chance #or cooldown
+
+  #if type = chance
+  chance: 1 #in procent% 1 level - 1%, 2 level - 2%, 3 level - 3% and etc
+
+  #if type = cooldown
+  cooldown: 60 #in seconds
+  cooldown-reduction-per-level: 10 #in seconds
+  cooldown-message-enable: true
+  cooldown-message: "Cooldown: {cooldown}"
