@@ -1,0 +1,28 @@
+#
+# Shield Dash EcoEnchant
+#
+
+name: "Shield Dash"
+description: You make a dash forward and throw up all the enemies on your way
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: legendary
+
+general-config:
+  targets:
+    - shield
+  grindstoneable: true
+  disabled-in-worlds: [ ]
+  conflicts: [ ]
+  maximum-level: 3
+
+config:
+  dash-power-per-level: 2.5
+  entity-throwing-radius-multiplier-per-level: 2
+  activation-sound: UI_STONECUTTER_TAKE_RESULT
+  cooldown: 60 #In seconds
+

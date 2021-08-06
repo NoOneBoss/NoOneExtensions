@@ -1,0 +1,27 @@
+#
+# TorchMaster EcoEnchant
+#
+
+name: "Torch Master"
+description: By right clicking on the block, you place a torch on it
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: legendary
+
+general-config:
+  targets:
+    - pickaxe
+  grindstoneable: true
+  disabled-in-worlds: [ ]
+  conflicts: []
+  maximum-level: 1
+
+config:
+  activation-sound: BLOCK_DRIPSTONE_BLOCK_HIT
+  take-torch-from-inventory: true
+  use-durabilty: true #if inventory not contains torch
+

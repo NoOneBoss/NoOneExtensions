@@ -1,0 +1,28 @@
+#
+# Wool Eater EcoEnchant
+#
+
+name: "Wool Eater"
+description: When you are shearing a sheep there is a chance to that wool won't be dropped
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: epic
+
+general-config:
+  targets:
+    - shears
+  grindstoneable: true
+  disabled-in-worlds: [ ]
+  conflicts:
+    - stainer
+  maximum-level: 1
+
+config:
+  activation-sound: ENTITY_PLAYER_BREATH
+  chance-per-level: 50
+
+

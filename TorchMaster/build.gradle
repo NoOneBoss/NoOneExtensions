@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+group 'me.nooneboss'
+version '1.1'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    maven {
+        url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+
+        content {
+            includeGroup 'org.bukkit'
+            includeGroup 'org.spigotmc'
+        }
+    }
+    maven { url = 'https://oss.sonatype.org/content/repositories/snapshots' }
+    maven { url = 'https://oss.sonatype.org/content/repositories/central' }
+    maven { url "https://repo.dmulloy2.net/repository/public/" }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.17.1-R0.1-SNAPSHOT'
+    compileOnly 'com.willfp:eco:6.0.2'
+    compileOnly 'com.willfp:EcoEnchants:8.0.1'
+    compileOnly group: "com.comphenix.protocol", name: "ProtocolLib", version: "4.6.0";
+}
+
+test {
+    useJUnitPlatform()
+}

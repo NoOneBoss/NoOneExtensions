@@ -1,0 +1,27 @@
+#
+# Stainer EcoEnchant
+#
+
+name: "Stainer"
+description: When you are shearing a sheep there is a chance to additionally get a random colored wool
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: common
+
+general-config:
+  targets:
+    - shears
+  grindstoneable: true
+  disabled-in-worlds: [ ]
+  conflicts: []
+  maximum-level: 3
+
+config:
+  activation-sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  chance-per-level: 5
+
+

@@ -1,0 +1,4 @@
+me/nooneboss/torchmasterenchantment/TorchMaster.java
+ me.nooneboss.torchmasterenchantment.TorchMaster
+me/nooneboss/torchmasterenchantment/TorchMasterMain.java
+ me.nooneboss.torchmasterenchantment.TorchMasterMain

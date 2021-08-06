@@ -1,0 +1,4 @@
+me/nooneboss/wooleaterenchantment/WoolEater.java
+ me.nooneboss.wooleaterenchantment.WoolEater
+me/nooneboss/wooleaterenchantment/WoolEaterMain.java
+ me.nooneboss.wooleaterenchantment.WoolEaterMain
